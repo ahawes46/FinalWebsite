@@ -1,0 +1,75 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #2b3e68;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+body {
+  /* I want everything to be centered */
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 32px;
+  /* I don't want a lot of blank space under my name before title */
+}
+
+p2 {
+  padding: 50px;
+  /* I want spacing between these three options */
+}
+
+
+main {
+  color: #2b3e68;
+  font-family: sans-serif;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  /* This is so the bullets/numbers are also centered with text */
+  /* But how do I get it so the bullets are all lined up? (the second bullet is shorter and looks weird) */
+}
+
+hr {
+  /* making my line thicker and matching color with text */
+  border: none;
+  height: 2px;
+  background-color: #2b3e68;
+}
+
+footer {
+  /* matching this to header format */
+  background-color: #2b3e68;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link {
+  /* using colors from image, links change color depending on activity */
+  color: #00b5e7;
+}
+
+a:visited {
+  color: #2b3e68;
+}
+
+a:hover {
+  color: #02132f;
+}
+
+a:active {
+  color: #729eea;
+}
