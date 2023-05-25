@@ -9,6 +9,14 @@ header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+h2 {
+  font-size: 16px;
+  padding: 18px;
+  /* Separating labels */
+  display: inline;
+  /* So all on one line */
+}
+
 img {
   height: 300px;
   width: auto;
@@ -23,11 +31,6 @@ h1 {
   margin-bottom: 5px;
   font-size: 32px;
   /* I don't want a lot of blank space under my name before title */
-}
-
-p2 {
-  padding: 50px;
-  /* I want spacing between these three options */
 }
 
 
